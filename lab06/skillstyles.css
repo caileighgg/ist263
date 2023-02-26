@@ -1,0 +1,13 @@
+table, th, td {border: 1px seagreen;}
+.special {color: purple}
+table,
+th,
+td {
+    border: 1px coral;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color:brown;
+}
