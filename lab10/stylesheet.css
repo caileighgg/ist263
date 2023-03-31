@@ -14,11 +14,3 @@ h1 {text-align: center;}
 .col1 {display: flex; align-items: center; justify-content: space-between; flex-basis: 75%; padding-right: 10%;} 
 .col2 {display: flex; align-items: center; flex-basis: 25%; padding-left: 5%;}
 aside {color:#001253; background-color:#3E6D9C; border-radius: 25px; padding-left: 5%; padding-right: 5%;}
-nav {
-    @media only screen and (max-width: 600px) 
-    {.big {background-color:darksalmon;}}
-    
-
-    @media only screen and (min-width: 600px) 
-    {.small {display:none;}}
-}
