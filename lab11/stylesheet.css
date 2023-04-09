@@ -1,6 +1,6 @@
 body {color:#000000;}
 h1, h2 {color:#890000;}
-p, ol {color: #243763;}
+p, ol {color: #000000;}
 a {color:#4d0000;}
 nav {
     color:#000000;
@@ -9,9 +9,9 @@ nav {
     margin-bottom:30px;
 }
 nav a {color:#ffffff;}
-nav a:hover {background-color:#001253;}
+nav a:hover {background-color:#465272;}
 h1 {text-align: center;}
 .flexbox2 {display: flex; justify-content: baseline;}
 .col1 {display: flex; align-items: center; justify-content: space-between; flex-basis: 75%; padding-right: 10%;} 
 .col2 {display: flex; align-items: center; flex-basis: 25%; padding-left: 5%;}
-aside {color:#001253; background-color:#07213b; border-radius: 25px; padding-left: 5%; padding-right: 5%;}
+aside {color:#72788c; background-color:#3f556b; border-radius: 25px; padding-left: 5%; padding-right: 5%;}
