@@ -1,8 +1,9 @@
 body {color:#000000;}
-h1, h2 {color:#828181;}
+h1, h2 {color:#890000;}
 p, ol {color: #243763;}
-a {color:#FFB84C;}
+a {color:#4d0000;}
 nav {
+    color:#000000;
     background-color:#696565;
     padding:10px;
     margin-bottom:30px;
