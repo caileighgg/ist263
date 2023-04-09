@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip {background-color: cadetblue; padding: 5px; border: 1px solid #000000; text-decoration: none; position:absolute; left: -999px;}
+        .skip:focus {left: 10px;} 
+    </style>
+</head>
+<body>
+    <section>
+        <a href="#main" class="skip" tabindex="1">Skip to Content</a><br> <!--bookmark tags just take you somewhere else on the page...you need href with # (main)and it links to ID with the same name-->
+        <a href="http://www.syr.edu" tabindex="2"></a><br>
+        <a href="http://ischool.syr.edu" tabindex="4"></a><br>
+        <a href="http://soe.syr.edu" tabindex="3"></a>
+    </section>
+
+    <section>
+        <h1>About Syracuse</h1>
+        <p id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis earum, inventore magni repellat pariatur totam, molestias deleniti consequatur exercitationem quo, architecto dolor maxime corrupti explicabo repudiandae? Consequuntur, ipsam id.</p>
+    </section>
+</body>
+</html>

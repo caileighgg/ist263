@@ -1,0 +1,16 @@
+body {color:#3E6D9C;}
+h1, h2 {color:#FF6E31;}
+p, ol {color: #243763;}
+a {color:#FFB84C;}
+nav {
+    background-color:#EB6440;
+    padding:10px;
+    margin-bottom:30px;
+}
+nav a {color:#3E6D9C;}
+nav a:hover {background-color:#001253;}
+h1 {text-align: center;}
+.flexbox2 {display: flex; justify-content: baseline;}
+.col1 {display: flex; align-items: center; justify-content: space-between; flex-basis: 75%; padding-right: 10%;} 
+.col2 {display: flex; align-items: center; flex-basis: 25%; padding-left: 5%;}
+aside {color:#001253; background-color:#3E6D9C; border-radius: 25px; padding-left: 5%; padding-right: 5%;}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Information</title>
+        <link rel="stylesheet" href="contactstyles.css">
+        <style>
+           .iframe {max-width: 75%; padding-left: 10%; padding-top: 10%; padding-bottom: 10%;}
+           .row1, .row2 
+           {
+            background-color:cornflowerblue; 
+            border-radius: 10px; 
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            }
+
+           .row1 {display: flex;}
+           .row2 {display: flex; flex-wrap:wrap}
+
+           .col1 {margin-right: 10px; display: flex}
+            .col2 {float: right}
+
+            .col3 {margin-right: 10px; display: flex}
+            .col4 {float: right}
+                    
+          @media only screen and (max-width: 800px) 
+            {.nav {background-color:darksalmon;}}
+            
+
+            @media only screen and (max-width: 800px) 
+            {.nav a {display:block; padding-bottom: 2%;} span {display: none;}}
+
+        </style>
+    </head>
+    <body>
+        <a href="#main" class="skip" tabindex="1">Skip to Content</a><br>
+        <nav class="nav">
+            <a href="../lab07/index.html">Home<span>|</span></a>
+            <a href="../lab07/skills.html">Skills<span>|</span></a>
+            <a href="../lab07/contact.html">Contact</a>
+        </nav> 
+    <section>
+    <div class="row1" id="main">
+        <div class="col1">  
+            <h1>Contact</h1>
+            <ul style="list-style-type: none">
+                <li>Caileigh Grimes</li>
+                <li>170 Small Road</li>
+                <li>Syracuse, NY 13210</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="col2">
+            <p>
+                <a href="mailto:cagrimes@syr.edu">cagrimes@syr.edu</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/caileighgrimessyr/"><img src="../images/logo-sized.png" alt="Linkedin Logo"></a>
+                <a href="https://www.linkedin.com/in/caileighgrimessyr/">My LinkedIn Profile</a>
+            </p></div>
+    </div>  
+    </section>
+
+    <figure>
+    <div class="row2">
+        <div class="col3">            
+            <form action="https://formspree.io/f/xnqypdoj" method="POST">  
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+
+            <label for="comments">Comments: </label>
+            <textarea id="comments" name="comments" rows="4" cols="50">
+            </textarea>
+            <input type="submit" value="send form">
+            <br>
+            <label for="cars">What is my correct address:</label>
+            <select name="cars" id="cars">
+              <option value="175 Small Road">175 Small Road</option>
+              <option value="140 Small Road">140 Small Road</option>
+              <option value="150 Small Road">150 Small Road</option>
+              <option value="170 Small Road">170 Small Road</option>
+            </select>
+            </form>
+    </figure>
+
+    <aside>
+        </div>
+        <div class="col4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.968456833561!2d-76.12421822031652!3d43.02105110119653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37d6b266989%3A0x1cd8e71636e57999!2s170%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1675351958403!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        </div>
+    </aside>
+
+    </div>
+    </body>
+    </html>
